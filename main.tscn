@@ -62,7 +62,7 @@ autostart = true
 
 [node name="Bondi" parent="." unique_id=399293244 instance=ExtResource("2_1bvp3")]
 z_index = 3
-position = Vector2(911, 579)
+position = Vector2(302, 351)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1486542941]
 
