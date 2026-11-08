@@ -1,0 +1,521 @@
+[gd_scene format=3 uid="uid://c86xmgd3qc7uf"]
+
+[ext_resource type="Script" uid="uid://dlphxog5uribw" path="res://parada.gd" id="1_4h8s1"]
+[ext_resource type="Texture2D" uid="uid://b48yoi5casqqr" path="res://SpriteParada.png" id="2_1ruo1"]
+[ext_resource type="Texture2D" uid="uid://cdnltyvu4ekpu" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0001.png" id="3_77tkc"]
+[ext_resource type="Texture2D" uid="uid://dbdelo8x6ibqi" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0002.png" id="4_4ugeh"]
+[ext_resource type="Texture2D" uid="uid://b0n52wmi0qhv5" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0003.png" id="5_2tpua"]
+[ext_resource type="Texture2D" uid="uid://bfd33cqdv2drg" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0004.png" id="6_40ypm"]
+[ext_resource type="Texture2D" uid="uid://c4t4brm4adu6a" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0005.png" id="7_aayw4"]
+[ext_resource type="Texture2D" uid="uid://buawe1gksbkto" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0006.png" id="8_1mwfc"]
+[ext_resource type="Texture2D" uid="uid://cove2uuwu311g" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0007.png" id="9_khde3"]
+[ext_resource type="Texture2D" uid="uid://c7fo43n3ba05x" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0008.png" id="10_saknj"]
+[ext_resource type="Texture2D" uid="uid://mhya1rivs5ad" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0009.png" id="11_qt1me"]
+[ext_resource type="Texture2D" uid="uid://dy2sfa1tv6kys" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0010.png" id="12_bcgxo"]
+[ext_resource type="Texture2D" uid="uid://7b36b2bcldo6" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0011.png" id="13_npb3t"]
+[ext_resource type="Texture2D" uid="uid://u10qqcysx25f" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0012.png" id="14_lrd7t"]
+[ext_resource type="Texture2D" uid="uid://y1m2dsbpvnc2" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0013.png" id="15_vdb05"]
+[ext_resource type="Texture2D" uid="uid://dkby0c83boxal" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0014.png" id="16_rdlhq"]
+[ext_resource type="Texture2D" uid="uid://de505huj7tbin" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0015.png" id="17_iq5um"]
+[ext_resource type="Texture2D" uid="uid://dpa0uawdx0muk" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0016.png" id="18_fivct"]
+[ext_resource type="Texture2D" uid="uid://dohvto5xivkgq" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0017.png" id="19_la437"]
+[ext_resource type="Texture2D" uid="uid://beluxamxcqmfy" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0018.png" id="20_yctq7"]
+[ext_resource type="Texture2D" uid="uid://ce2x62jc0kkgp" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0019.png" id="21_huroq"]
+[ext_resource type="Texture2D" uid="uid://dsah6nfr2popp" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0020.png" id="22_d67xs"]
+[ext_resource type="Texture2D" uid="uid://c2x3ux766ltt0" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0021.png" id="23_uumrp"]
+[ext_resource type="Texture2D" uid="uid://ckxl7ebn23dtt" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0022.png" id="24_e7yis"]
+[ext_resource type="Texture2D" uid="uid://vwn51ddf3bef" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0023.png" id="25_cd7am"]
+[ext_resource type="Texture2D" uid="uid://dsvst202bswtp" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0024.png" id="26_txst8"]
+[ext_resource type="Texture2D" uid="uid://drf1je8dpxd1y" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0025.png" id="27_kn55r"]
+[ext_resource type="Texture2D" uid="uid://deatepg3fll4q" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0026.png" id="28_mpbim"]
+[ext_resource type="Texture2D" uid="uid://bcqvbq72l2ikm" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0027.png" id="29_3mxsq"]
+[ext_resource type="Texture2D" uid="uid://dmsxabupd0ps" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0028.png" id="30_lpbqa"]
+[ext_resource type="Texture2D" uid="uid://bmpy33bjl6nh5" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0029.png" id="31_mox8o"]
+[ext_resource type="Texture2D" uid="uid://cua7578sd73nm" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0030.png" id="32_swrht"]
+[ext_resource type="Texture2D" uid="uid://dn175a8d61b63" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0031.png" id="33_yhccb"]
+[ext_resource type="Texture2D" uid="uid://cr1rq5wp0thqy" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0032.png" id="34_inh1h"]
+[ext_resource type="Texture2D" uid="uid://c48bqx3icxvax" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0033.png" id="35_ha01y"]
+[ext_resource type="Texture2D" uid="uid://ds10yfpdyrxw8" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0034.png" id="36_11a03"]
+[ext_resource type="Texture2D" uid="uid://rr5f1uecsrm6" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0035.png" id="37_khlp4"]
+[ext_resource type="Texture2D" uid="uid://16nb62kvvm0w" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0036.png" id="38_0swr0"]
+[ext_resource type="Texture2D" uid="uid://nd4p65x3wxj7" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0037.png" id="39_qw80h"]
+[ext_resource type="Texture2D" uid="uid://x4pn218yr5rd" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0038.png" id="40_ysul1"]
+[ext_resource type="Texture2D" uid="uid://d2u80tcx4h7h2" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0039.png" id="41_0xcvv"]
+[ext_resource type="Texture2D" uid="uid://bjymxc165se76" path="res://animacion de pasajero/animacion de pasajero/animacion de pasajero/0040.png" id="42_jwnq7"]
+[ext_resource type="Texture2D" uid="uid://couc0smoi05ab" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0001.png" id="43_w3gwt"]
+[ext_resource type="Texture2D" uid="uid://dqd27ob6bwofc" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0002.png" id="44_67mya"]
+[ext_resource type="Texture2D" uid="uid://b5lna818r424t" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0003.png" id="45_cj6sh"]
+[ext_resource type="Texture2D" uid="uid://c1uwfixh77os4" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0004.png" id="46_fmo6e"]
+[ext_resource type="Texture2D" uid="uid://b8qe4qdcssv74" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0005.png" id="47_vqx5s"]
+[ext_resource type="Texture2D" uid="uid://cxdh4271evnsm" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0006.png" id="48_drgtt"]
+[ext_resource type="Texture2D" uid="uid://5rf2ldwj6peo" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0007.png" id="49_4u5o2"]
+[ext_resource type="Texture2D" uid="uid://y4dfsipr5t7c" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0008.png" id="50_h8kre"]
+[ext_resource type="Texture2D" uid="uid://cul6c44q6vt6k" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0009.png" id="51_ngnu5"]
+[ext_resource type="Texture2D" uid="uid://dicl5kbic6l4p" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0010.png" id="52_lhpg0"]
+[ext_resource type="Texture2D" uid="uid://bu30aqnnlkqlo" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0011.png" id="53_uaivx"]
+[ext_resource type="Texture2D" uid="uid://qaablp61mx3p" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0012.png" id="54_mdwvl"]
+[ext_resource type="Texture2D" uid="uid://7d5ek0nirq0i" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0013.png" id="55_u5seu"]
+[ext_resource type="Texture2D" uid="uid://fn4v3d35ubsc" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0014.png" id="56_vul0d"]
+[ext_resource type="Texture2D" uid="uid://cx1g05j5deaej" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0015.png" id="57_i7ft4"]
+[ext_resource type="Texture2D" uid="uid://1cjjjug0dsmy" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0016.png" id="58_q4mlw"]
+[ext_resource type="Texture2D" uid="uid://can3w4mjmj57e" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0017.png" id="59_cmtxs"]
+[ext_resource type="Texture2D" uid="uid://codv38jhun41g" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0018.png" id="60_87qra"]
+[ext_resource type="Texture2D" uid="uid://c7jnog185fhot" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0019.png" id="61_ogyg4"]
+[ext_resource type="Texture2D" uid="uid://srhajohnyqs2" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0020.png" id="62_hn3yk"]
+[ext_resource type="Texture2D" uid="uid://cm1ptrork71h3" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0021.png" id="63_6450h"]
+[ext_resource type="Texture2D" uid="uid://jy84jrd0f37t" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0022.png" id="64_331li"]
+[ext_resource type="Texture2D" uid="uid://dx0xaejnby0lb" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0023.png" id="65_luv5t"]
+[ext_resource type="Texture2D" uid="uid://ddbouuuqnnp65" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0024.png" id="66_2ani4"]
+[ext_resource type="Texture2D" uid="uid://cyxe8a3ag0d8e" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0025.png" id="67_ma78k"]
+[ext_resource type="Texture2D" uid="uid://brpkqae1x0u50" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0026.png" id="68_o3iog"]
+[ext_resource type="Texture2D" uid="uid://k7n0ba4lduf1" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0027.png" id="69_m6nx7"]
+[ext_resource type="Texture2D" uid="uid://csijqfl3t5xw8" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0028.png" id="70_lnnjx"]
+[ext_resource type="Texture2D" uid="uid://bjdmbg80bvi6" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0029.png" id="71_81x2a"]
+[ext_resource type="Texture2D" uid="uid://c5lwmq1vv4ktb" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0030.png" id="72_8001c"]
+[ext_resource type="Texture2D" uid="uid://bqued3uoxu02c" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0031.png" id="73_3wxgi"]
+[ext_resource type="Texture2D" uid="uid://c8hih0gst00wb" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0032.png" id="74_n62wf"]
+[ext_resource type="Texture2D" uid="uid://c2lgydxgkwr3m" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0033.png" id="75_g6dtx"]
+[ext_resource type="Texture2D" uid="uid://bd2ypc343dnug" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0034.png" id="76_c2jmh"]
+[ext_resource type="Texture2D" uid="uid://c7d88ac3pablt" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0035.png" id="77_mgf5o"]
+[ext_resource type="Texture2D" uid="uid://u0ndvu6g8q0m" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0036.png" id="78_0ox2b"]
+[ext_resource type="Texture2D" uid="uid://dbjm8at6gqt04" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0037.png" id="79_k12do"]
+[ext_resource type="Texture2D" uid="uid://vm2663jrsi3l" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0038.png" id="80_mm0uw"]
+[ext_resource type="Texture2D" uid="uid://cio7fnb7dxxet" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0039.png" id="81_lnero"]
+[ext_resource type="Texture2D" uid="uid://d3yo2yex7jo4h" path="res://animacion de pasajero/animacion pasajero 3/animacion pasajero 3/0040.png" id="82_lb6br"]
+[ext_resource type="Texture2D" uid="uid://dird15wrfumvu" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0001.png" id="83_nkq77"]
+[ext_resource type="Texture2D" uid="uid://x5tm0j8268ki" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0002.png" id="84_6y4qe"]
+[ext_resource type="Texture2D" uid="uid://bnsgmycbrosw3" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0003.png" id="85_1g2vk"]
+[ext_resource type="Texture2D" uid="uid://cco0vgs5ayc8c" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0004.png" id="86_agp0j"]
+[ext_resource type="Texture2D" uid="uid://boqjd3luglo40" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0005.png" id="87_fu5ru"]
+[ext_resource type="Texture2D" uid="uid://blnbp0wdqo6lm" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0006.png" id="88_q0os2"]
+[ext_resource type="Texture2D" uid="uid://d0mixaongwb2k" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0007.png" id="89_jjmhv"]
+[ext_resource type="Texture2D" uid="uid://cravub81vh86p" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0008.png" id="90_rdv63"]
+[ext_resource type="Texture2D" uid="uid://wuoinu1tsd3e" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0009.png" id="91_g4we7"]
+[ext_resource type="Texture2D" uid="uid://d27jg374snlvf" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0010.png" id="92_47yk7"]
+[ext_resource type="Texture2D" uid="uid://djp226ov0x2ts" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0011.png" id="93_awtgw"]
+[ext_resource type="Texture2D" uid="uid://ccuq0f075jj3w" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0012.png" id="94_q2vbw"]
+[ext_resource type="Texture2D" uid="uid://dbefrn2imynkc" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0013.png" id="95_1u6xt"]
+[ext_resource type="Texture2D" uid="uid://df0wy525k45c0" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0014.png" id="96_80wdi"]
+[ext_resource type="Texture2D" uid="uid://d0cxcb0e58jvn" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0015.png" id="97_h5j1n"]
+[ext_resource type="Texture2D" uid="uid://cdmyutof66b5s" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0016.png" id="98_hd2xi"]
+[ext_resource type="Texture2D" uid="uid://6go5ldtqa0y5" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0017.png" id="99_uqllt"]
+[ext_resource type="Texture2D" uid="uid://byiegpntequrl" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0018.png" id="100_aknkq"]
+[ext_resource type="Texture2D" uid="uid://nslkw2rpabv0" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0019.png" id="101_qorcv"]
+[ext_resource type="Texture2D" uid="uid://cxhlulms60ugf" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0020.png" id="102_w41j6"]
+[ext_resource type="Texture2D" uid="uid://cdqscookqmg4b" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0021.png" id="103_abrq1"]
+[ext_resource type="Texture2D" uid="uid://c74la0jroghtq" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0022.png" id="104_l0b5g"]
+[ext_resource type="Texture2D" uid="uid://hrxlgjnfirmh" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0023.png" id="105_fokdi"]
+[ext_resource type="Texture2D" uid="uid://4ic8cenl8dec" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0024.png" id="106_cmg6x"]
+[ext_resource type="Texture2D" uid="uid://do8b742in4y5" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0025.png" id="107_4nfu4"]
+[ext_resource type="Texture2D" uid="uid://b14byrr3koaai" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0026.png" id="108_wnpks"]
+[ext_resource type="Texture2D" uid="uid://ec5stoc1lni7" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0027.png" id="109_sqf1c"]
+[ext_resource type="Texture2D" uid="uid://2xhjgvomyc1i" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0028.png" id="110_cygba"]
+[ext_resource type="Texture2D" uid="uid://bkanqscwknle" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0029.png" id="111_jihwn"]
+[ext_resource type="Texture2D" uid="uid://ch0jqp6xkiphx" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0030.png" id="112_6fudf"]
+[ext_resource type="Texture2D" uid="uid://ndxych0d5p0r" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0031.png" id="113_17q32"]
+[ext_resource type="Texture2D" uid="uid://chk3ylc2rvdi2" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0032.png" id="114_8q6px"]
+[ext_resource type="Texture2D" uid="uid://bobhunhsrqd1" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0033.png" id="115_y0wsw"]
+[ext_resource type="Texture2D" uid="uid://3di4fisy8xy3" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0034.png" id="116_7einy"]
+[ext_resource type="Texture2D" uid="uid://c176p3ivv2s0s" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0035.png" id="117_vjg2k"]
+[ext_resource type="Texture2D" uid="uid://c8r7ll63kpawe" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0036.png" id="118_vbmve"]
+[ext_resource type="Texture2D" uid="uid://b8eb7j3f1dsbt" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0037.png" id="119_ikp3y"]
+[ext_resource type="Texture2D" uid="uid://caks2dted5qdx" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0038.png" id="120_vb357"]
+[ext_resource type="Texture2D" uid="uid://rhixjog8w5d8" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0039.png" id="121_tnpt8"]
+[ext_resource type="Texture2D" uid="uid://hudb5kvnupc4" path="res://animacion de pasajero/animacion pasajero 2/animacion pasajero 2/0040.png" id="122_hwuve"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2bok1"]
+size = Vector2(117, 119)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_2bok1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_77tkc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_4ugeh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_2tpua")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_40ypm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_aayw4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_1mwfc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_khde3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_saknj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_qt1me")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_bcgxo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_npb3t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_lrd7t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_vdb05")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_rdlhq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_iq5um")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_fivct")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_la437")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_yctq7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_huroq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_d67xs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_uumrp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_e7yis")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_cd7am")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_txst8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_kn55r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_mpbim")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_3mxsq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_lpbqa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_mox8o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_swrht")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_yhccb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_inh1h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_ha01y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_11a03")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_khlp4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_0swr0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_qw80h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_ysul1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_0xcvv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_jwnq7")
+}],
+"loop": 0,
+"name": &"azul",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("43_w3gwt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_67mya")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_cj6sh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_fmo6e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_vqx5s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_drgtt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_4u5o2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_h8kre")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_ngnu5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_lhpg0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_uaivx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_mdwvl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_u5seu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_vul0d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_i7ft4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_q4mlw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_cmtxs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_87qra")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_ogyg4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_hn3yk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_6450h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_331li")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_luv5t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_2ani4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_ma78k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_o3iog")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_m6nx7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_lnnjx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_81x2a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_8001c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_3wxgi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_n62wf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_g6dtx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_c2jmh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_mgf5o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_0ox2b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_k12do")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_mm0uw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_lnero")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_lb6br")
+}],
+"loop": 1,
+"name": &"rojo",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("83_nkq77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_6y4qe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_1g2vk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_agp0j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_fu5ru")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_q0os2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_jjmhv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_rdv63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_g4we7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_47yk7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_awtgw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_q2vbw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_1u6xt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_80wdi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_h5j1n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_hd2xi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_uqllt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_aknkq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_qorcv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_w41j6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103_abrq1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_l0b5g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_fokdi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_cmg6x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_4nfu4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_wnpks")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_sqf1c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_cygba")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_jihwn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_6fudf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_17q32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114_8q6px")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_y0wsw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_7einy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_vjg2k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118_vbmve")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119_ikp3y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120_vb357")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121_tnpt8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122_hwuve")
+}],
+"loop": 1,
+"name": &"verde",
+"speed": 5.0
+}]
+
+[node name="Parada" type="Area2D" unique_id=967467477]
+script = ExtResource("1_4h8s1")
+
+[node name="Spriteparada" type="Sprite2D" parent="." unique_id=716914672]
+texture = ExtResource("2_1ruo1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1235470393]
+position = Vector2(-1, 29)
+shape = SubResource("RectangleShape2D_2bok1")
+
+[node name="animPasajero" type="AnimatedSprite2D" parent="." unique_id=1329267706]
+position = Vector2(0, 23)
+scale = Vector2(0.22, 0.22)
+sprite_frames = SubResource("SpriteFrames_2bok1")
+animation = &"azul"

@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://dn68v260kmi5y"]
+
+[ext_resource type="Texture2D" uid="uid://dw4v48vpq0by3" path="res://colectivo.png" id="1_jgth2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2bok1"]
+size = Vector2(382, 89)
+
+[node name="Bondi" type="CharacterBody2D" unique_id=399293244]
+
+[node name="SpriteBondi" type="Sprite2D" parent="." unique_id=1256649971]
+scale = Vector2(0.37624854, 0.37624848)
+texture = ExtResource("1_jgth2")
+flip_h = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=909955941]
+visible = false
+position = Vector2(1, -21.5)
+shape = SubResource("RectangleShape2D_2bok1")

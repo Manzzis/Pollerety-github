@@ -1,0 +1,39 @@
+[gd_scene format=3 uid="uid://ffry0pdu486e"]
+
+[node name="MenuPausa" type="CanvasLayer" unique_id=1195969332]
+process_mode = 3
+
+[node name="Panel" type="Panel" parent="." unique_id=107648663]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel" unique_id=904246192]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -66.0
+offset_top = -90.0
+offset_right = 67.0
+offset_bottom = 84.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 20
+
+[node name="Reanudar" type="Button" parent="Panel/VBoxContainer" unique_id=158712246]
+process_mode = 3
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "Reanudar
+"
+
+[node name="VolverMenu" type="Button" parent="Panel/VBoxContainer" unique_id=1322968087]
+process_mode = 3
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "Volver al menu principal"

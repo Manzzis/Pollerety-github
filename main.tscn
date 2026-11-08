@@ -1,0 +1,184 @@
+[gd_scene format=3 uid="uid://db6kdl5fvxfg0"]
+
+[ext_resource type="Script" uid="uid://b8kwi20lnn21r" path="res://main.gd" id="1_h2yge"]
+[ext_resource type="PackedScene" uid="uid://dn68v260kmi5y" path="res://bondi.tscn" id="2_1bvp3"]
+[ext_resource type="Texture2D" uid="uid://dxgh25f2uvbfc" path="res://city_parallax/layer_4_clouds_1.png" id="3_5vw27"]
+[ext_resource type="PackedScene" uid="uid://ffry0pdu486e" path="res://menu_pausa.tscn" id="4_1bvp3"]
+[ext_resource type="Texture2D" uid="uid://mp6n7sbecrb5" path="res://titulo xdsa.png" id="4_272bh"]
+[ext_resource type="Texture2D" uid="uid://ers8kgro7g23" path="res://city_parallax/fondo2.png" id="4_kek77"]
+[ext_resource type="Texture2D" uid="uid://dhh817ws3hoc4" path="res://pedal.png" id="7_5vw27"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_5vw27"]
+load_path = "res://.godot/imported/layer_1_ground.png-82fb240a4400a1c88474b250c9ce747f.ctex"
+
+[node name="Main" type="Node2D" unique_id=1202747516 node_paths=PackedStringArray("capas_parallax")]
+script = ExtResource("1_h2yge")
+posicion_colectivo_x = 811.0
+distancia_maxima = 150.0
+capas_parallax = [NodePath("fondo2"), NodePath("ParallaxLayer4"), NodePath("ParallaxLayer"), NodePath("ParallaxLayer3")]
+
+[node name="fondo2" type="Parallax2D" parent="." unique_id=1049007392]
+scroll_scale = Vector2(0.2, 0.2)
+repeat_size = Vector2(1798.228, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="fondo2" unique_id=1302881129]
+position = Vector2(0.99999994, 0)
+scale = Vector2(2.4986167, 2.546875)
+texture = SubResource("CompressedTexture2D_5vw27")
+centered = false
+
+[node name="ParallaxLayer4" type="Parallax2D" parent="." unique_id=1181377568]
+scale = Vector2(2.5325694, 2.5325694)
+scroll_scale = Vector2(0.3, 0.3)
+repeat_size = Vector2(723, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer4" unique_id=2021375997]
+texture = ExtResource("3_5vw27")
+centered = false
+
+[node name="ParallaxLayer" type="Parallax2D" parent="." unique_id=874369529]
+scale = Vector2(2.5325694, 2.5325694)
+scroll_scale = Vector2(0.4, 0.4)
+repeat_size = Vector2(723, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer" unique_id=2079918720]
+texture = ExtResource("4_kek77")
+centered = false
+
+[node name="ParallaxLayer3" type="Parallax2D" parent="." unique_id=29347095]
+repeat_size = Vector2(1147.27, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer3" unique_id=479217996]
+position = Vector2(-6.000002, 96.99999)
+scale = Vector2(0.6113178, 0.6)
+texture = ExtResource("4_272bh")
+centered = false
+
+[node name="GameTimer" type="Timer" parent="." unique_id=2013806787]
+
+[node name="SpawnTimer" type="Timer" parent="." unique_id=677232037]
+wait_time = 3.0
+autostart = true
+
+[node name="Bondi" parent="." unique_id=399293244 instance=ExtResource("2_1bvp3")]
+z_index = 3
+position = Vector2(911, 579)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1486542941]
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer" unique_id=1551072751]
+offset_left = 397.0
+offset_top = 590.0
+offset_right = 437.0
+offset_bottom = 630.0
+
+[node name="BotonRojo" type="Button" parent="CanvasLayer/HBoxContainer" unique_id=434897865]
+layout_mode = 2
+text = "ROJO"
+
+[node name="BotonAzul" type="Button" parent="CanvasLayer/HBoxContainer" unique_id=98938841]
+layout_mode = 2
+text = "AZUL"
+
+[node name="BotonVerde" type="Button" parent="CanvasLayer/HBoxContainer" unique_id=377595759]
+layout_mode = 2
+text = "VERDE"
+
+[node name="Panel Victoria" type="Panel" parent="CanvasLayer" unique_id=1977629467]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VolverMenu2" type="Button" parent="CanvasLayer/Panel Victoria" unique_id=1709991249]
+process_mode = 3
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -297.0
+offset_top = 89.0
+offset_right = 297.0
+offset_bottom = 166.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 50
+text = "Volver al menu principal"
+
+[node name="puntuacion" type="Label" parent="CanvasLayer/Panel Victoria" unique_id=2141243613]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -209.5
+offset_top = -34.5
+offset_right = 209.5
+offset_bottom = 34.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 50
+text = "victoria o derrota"
+
+[node name="BotonAcelerar" type="TextureButton" parent="CanvasLayer" unique_id=850508498]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -133.0
+offset_top = -134.0
+offset_right = -93.0
+offset_bottom = -94.0
+grow_horizontal = 2
+grow_vertical = 0
+scale = Vector2(1.6404824, 1.6404824)
+texture_normal = ExtResource("7_5vw27")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="pausa" type="CanvasLayer" parent="." unique_id=506411217]
+
+[node name="pausa" type="Button" parent="pausa" unique_id=1583126199]
+process_mode = 3
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -24.0
+offset_top = 14.0
+offset_right = -16.0
+offset_bottom = 22.0
+grow_horizontal = 0
+text = "Pausa"
+
+[node name="MenuPausa" parent="." unique_id=1195969332 instance=ExtResource("4_1bvp3")]
+visible = false
+
+[node name="Label Puntos" type="Label" parent="." unique_id=568356843]
+offset_left = 104.0
+offset_top = 26.0
+offset_right = 206.0
+offset_bottom = 68.0
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 30
+text = "Puntos"
+
+[node name="LabelTiempo" type="Label" parent="." unique_id=1637514285]
+offset_left = 548.0
+offset_top = 26.0
+offset_right = 651.0
+offset_bottom = 68.0
+theme_override_font_sizes/font_size = 30
+text = "Tiempo"
+
+[connection signal="pressed" from="CanvasLayer/Panel Victoria/VolverMenu2" to="." method="_on_volver_menu_pressed"]
+[connection signal="pressed" from="pausa/pausa" to="." method="_on_pausa_pressed"]
+[connection signal="pressed" from="MenuPausa/Panel/VBoxContainer/Reanudar" to="." method="_on_reanudar_pressed"]
+[connection signal="pressed" from="MenuPausa/Panel/VBoxContainer/VolverMenu" to="." method="_on_volver_menu_pressed"]
+
+[editable path="MenuPausa"]
